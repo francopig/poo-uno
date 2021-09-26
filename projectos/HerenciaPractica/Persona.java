@@ -22,7 +22,24 @@ public class Persona {
 	}
 	
 	//Metodos
-	public void dormir() {
+	
+	//getters para el atributo dni y otro para el nombre
+	public int getDni() {
+		return this.dni;
+	}
+	
+	public String getNombre() {
+		return this.nombre;
+	}
+	
+	
+	
+	/*El nivel de acceso protected
+	 * hace que el elemento sea visible desde
+	 * la clase donde se lo definió
+	 * y desde sub-clases
+	 * */
+	protected void dormir() {
 		System.out.println("PERSONA durmiendo");
 	}
 
