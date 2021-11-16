@@ -15,13 +15,13 @@ public class Casino {
 			tg.activar(); 
 			contadorDeFichines ++;
 		}
-		
+		ut
 		double inversion = VALOR_FICHIN * contadorDeFichines;
 		
 		System.out.println("Display ");
 		System.out.println(tg);
 		System.out.println("Con: " + contadorDeFichines + " fichines");
-		System.out.println("Inversión " + inversion);
+		System.out.println("Inversiï¿½n " + inversion);
 		if(inversion < PREMIO) {
 			System.out.println("Ganaste: " + (PREMIO - inversion));
 		}else {
